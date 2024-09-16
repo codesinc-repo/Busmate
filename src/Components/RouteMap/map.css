@@ -1,0 +1,54 @@
+/* .searchbox{
+    width: 50%;
+    height: 75px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+    z-index: 1;
+    border-radius: 50px;
+    border: 1px solid #000;
+    display: grid;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .locationbox{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    z-index: 1;
+  }
+ .map-box .form-control{
+    border-radius: 20px;
+  }
+  
+  .map-box .roundbox{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #fa0;
+  }
+  
+  .makethiscenter{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .map-box .btn{
+    width: 100%;
+    border-radius: 20px;
+  } */
+
+.map-container h3 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Poppins";
+  margin-bottom: 10px;
+}
+.map-container .btn {
+  padding: 10px 20px;
+  margin-left: 5px;
+}

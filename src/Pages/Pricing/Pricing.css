@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.pricing-info {
+  background: linear-gradient(250deg, #023460, #1c2331 80%);
+}
+
+/* social icons */
+.social-icons .icons a {
+  color: rgb(28, 28, 28);
+}
+.social-icons .icons a:hover {
+  color: rgb(255, 94, 0);
+}
+.payment-options h3 {
+  font-size: 35px;
+  font-family: "Poppins";
+  font-weight: 800;
+  margin: 20px 0px;
+}
+.payment-options button {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Poppins";
+  transition: all 0.3s;
+}
+.payment-options button:nth-child(2) {
+  margin-left: 10px;
+}

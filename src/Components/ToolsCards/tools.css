@@ -1,0 +1,134 @@
+.service-single {
+  overflow: hidden;
+}
+.service-single {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  margin-bottom: 30px;
+}
+.service-item .service-single .service-img {
+  height: 250px;
+  overflow: hidden;
+}
+.service-item .service-single .service-img img {
+  min-height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+.service-item .service-single .service-content.long-heading {
+  padding-top: 18px;
+}
+.service-content {
+  padding: 29px 40px 20px;
+  position: absolute;
+  left: 0;
+  top: 68%;
+  width: 100%;
+  height: 100%;
+  padding-left: 100px;
+  background: #1c2331;
+  transition: all 0.3s;
+  opacity: 0.8;
+}
+.service-single:hover .service-content {
+  top: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.service-single:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1c233141;
+}
+.service-content h3 {
+  font-size: 20px;
+  font-family: "Poppins";
+  position: relative;
+  color: #fff;
+}
+.service-item .service-single .service-content h3 i {
+  position: absolute;
+  left: -115px;
+  top: -35px;
+  font-size: 42px;
+  color: #34ccff;
+  font-weight: 500;
+}
+.service-item .service-single .service-content.long-heading h3 i {
+  top: -25px;
+}
+
+.service-content2 h3:before {
+  content: "\f107";
+  margin-top: 5px;
+}
+.service-content3 h3:before {
+  content: "\f100";
+  transform: rotate(45deg);
+}
+.service-content4 h3:before {
+  content: "\f108";
+}
+.service-content5 h3:before {
+  content: "\f10a";
+}
+.service-content6 h3:before {
+  content: "\f10b";
+}
+.service-content p {
+  padding: 15px 0 0;
+  color: #fff;
+  line-height: 30px;
+}
+.service-content a {
+  color: #34ccff;
+}
+.service-area.service-s2 .service-item .service-single {
+  background: #fff;
+  text-align: center;
+  padding: 40px 33px;
+}
+.service-area.service-s2 .service-item .service-single:before {
+  content: none;
+}
+.service-area.service-s2 .service-item .service-single .service-icon {
+  background-color: rgba(52, 203, 255, 0.2);
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+  margin-bottom: 25px;
+}
+.service-area.service-s2 .service-item .service-single .service-icon:before {
+  content: "";
+  background-color: rgba(52, 203, 255, 0.2);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: -5px;
+  top: -5px;
+  border-radius: 50%;
+}
+.service-area.service-s2 .service-item .service-single .service-icon i {
+  color: #142440;
+}
+.service-area.service-s2 .service-item .service-single h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.service-area.service-s2 .service-item .service-single p {
+  line-height: 30px;
+  color: #5d5b5b;
+}

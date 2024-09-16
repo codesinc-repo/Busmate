@@ -1,0 +1,59 @@
+/* Custom styles for the timetable component */
+.custom-header {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .timetable_main{
+    font-family: "Poppins", sans-serif;
+  }
+ 
+  .timetable_form label{
+    font-weight: 700;
+    color: #292929;
+  }
+
+  .timetable_form select, .timetable_form input{
+    border: 2px solid rgb(105, 104, 104);
+    font-family: "Poppins";
+  }
+
+  .table-custom th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+  }
+  
+  .table-custom td {
+    text-align: center;
+  }
+  
+  .custom-btn {
+    background-color: #28a745;
+    box-shadow: inset 7px -1px 29px #336400;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .custom-btn:hover {
+    background-color: #218838;
+  }
+  
+  .footer-text {
+    background-color: #212529;
+    color: white;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .stop-distance {
+    color: #ff8800;
+    font-weight: bold;
+  }
+  

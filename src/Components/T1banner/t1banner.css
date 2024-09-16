@@ -1,0 +1,71 @@
+.t1-banner {
+  background-image: url("../../../public/images/images-entour/Landing_home.png");
+  height: 500px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /* overflow-x: hidden; */
+}
+
+.t1-banner .banner-section {
+  padding: 7rem;
+}
+
+.map-circle img {
+  height: 350px;
+  width: 350px;
+  margin-top: 2rem;
+  /* padding-top: 2rem; */
+  border-radius: 50%;
+}
+
+.banner-btn {
+  --color: black;
+  font-family: inherit;
+  display: inline-block;
+  width: 10em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  color: var(--color);
+}
+
+.banner-btn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.banner-btn:hover {
+  color: #fff;
+  background-color: #a0d2ff;
+}
+
+.banner-btn:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+.banner-btn:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+.banner-btn:active:before {
+  background: #a0d2ff;
+  transition: background 0s;
+}

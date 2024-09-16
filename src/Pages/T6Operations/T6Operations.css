@@ -1,0 +1,81 @@
+/* cards of t2 */
+.background-color-card {
+  background-color: #ebeaeb;
+  padding: 28px;
+}
+.transit-services a > button {
+  background: transparent;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  font-size: 17px;
+}
+.transit-services a > button:hover {
+  background: #05325b;
+  border-color: #33d98a;
+  color: white;
+}
+/* .imagetext */
+
+.side-image-one img {
+  height: 250px;
+  width: auto;
+}
+.images-text .side-image img {
+  height: 350px;
+  width: auto;
+}
+
+.images-text .image-2 {
+  height: 250px;
+  width: auto;
+}
+
+/* accordion */
+main img {
+  width: 100%;
+}
+
+.navigation {
+  font-weight: 300;
+  font-size: 0.9375rem;
+  max-width: 460px;
+  min-width: 216px;
+  margin: 0 auto;
+  color: #696666;
+}
+
+.navigation__logo {
+  width: 216px;
+  margin: 0 auto;
+  padding-bottom: 18px;
+}
+
+.image-GTF img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+.t3-schedule {
+  background-image: url("../../../public/images/images-entour/operations.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+.t4-gtfs-static {
+  background-image: url("../../../public/images/images-entour/operators.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* social icons */
+.social-icons .icons a {
+  color: rgb(28, 28, 28);
+}
+.social-icons .icons a:hover {
+  color: rgb(255, 94, 0);
+}

@@ -1,0 +1,96 @@
+.site-footer {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.6;
+}
+.site-footer .inner {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  background: #f8f9fa;
+}
+.site-footer .inner.first {
+  padding-top: 80px;
+}
+@media (max-width: 991.98px) {
+  .site-footer {
+    padding-top: 30px;
+  }
+}
+.site-footer a {
+  color: #000000;
+}
+.site-footer a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+.site-footer .widget {
+  margin-bottom: 30px;
+}
+.site-footer .widget h3 {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+}
+.site-footer .widget .social li {
+  display: inline-block;
+  margin-left: 5px;
+}
+.site-footer .widget .social li a {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: linear-gradient(250deg, #023460, #1c2331 80%);
+  display: inline-block;
+  position: relative;
+  color: #ffffff;
+  -webkit-box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+.site-footer .widget .social li a i {
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in;
+}
+.site-footer .widget .social li:hover a {
+  color: #ffffff;
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 5px #1c2331;
+}
+.site-footer .widget .links li {
+  display: block;
+  margin-bottom: 10px;
+}
+.site-footer .widget .links li a {
+  color: #000000;
+}
+.site-footer .widget .links li a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+.site-footer ul.quick-info li {
+  position: relative;
+  padding-left: 30px;
+}
+.site-footer ul.quick-info li:before {
+  left: 0;
+  position: absolute;
+  content: "";
+  font-family: "icomoon";
+  color: #6998ab;
+}
+.site-footer ul.quick-info li.email:before {
+  content: "✉";
+}
+.site-footer ul.quick-info li.phone:before {
+  content: "☎";
+}
+.site-footer ul.quick-info li.address:before {
+  content: "📌";
+}

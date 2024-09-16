@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "bus-driver-navigation",
+    "staging": "bus-driver-navigation"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
